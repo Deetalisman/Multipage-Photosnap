@@ -753,10 +753,14 @@ tr {
   .feet {
     background-color: var(--black);
     color: var(--white);
-    padding: 6rem 15%;
+    padding: 4rem 20%;
     display: block;
     justify-content: space-between;
     text-align: center;
+  }
+  .feet2 h1 {
+    font-size: 2rem;
+    letter-spacing: 0.9rem;
   }
   .feet1 {
     display: block;
@@ -767,12 +771,12 @@ tr {
   }
   .feet4 li {
     list-style-type: none;
-    margin-bottom: 2rem;
+    margin-bottom: 1.6rem;
     cursor: pointer;
   }
   .icons {
     color: var(--white);
-    font-size: 3.3rem;
+    font-size: 2.2rem;
     cursor: pointer;
   }
   .feet5 {
@@ -781,10 +785,13 @@ tr {
   .feet3 {
     display: flex;
     justify-content: space-between;
-    margin-top: 4rem;
+    width: 70%;
+    margin: 0 15%;
+    margin-top: 3rem;
   }
   .feet6 {
-    margin-top: 4rem;
+    margin-top: 2rem;
+    color: var(--grey);
   }
   .icon {
     margin-right: 0.5rem;
