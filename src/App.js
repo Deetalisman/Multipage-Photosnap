@@ -26,7 +26,7 @@ export default function App() {
     setHom(true);
     setFeat(false);
     setPric(false);
-    list.classList.remove("show");
+    list?.classList.remove("show");
   }
   function handleStor() {
     setStor(true);
@@ -40,14 +40,14 @@ export default function App() {
     setStor(false);
     setFeat(true);
     setPric(false);
-    list.classList.remove("show");
+    list?.classList.remove("show");
   }
   function handlePric() {
     setHom(false);
     setStor(false);
     setFeat(false);
     setPric(true);
-    list.classList.remove("show");
+    list?.classList.remove("show");
   }
   function handleMenu() {
     const list = document.querySelector("ul");
