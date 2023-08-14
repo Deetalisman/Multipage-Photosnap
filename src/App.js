@@ -33,7 +33,7 @@ export default function App() {
     setHom(false);
     setFeat(false);
     setPric(false);
-    list.classList.remove("show");
+    list?.classList.remove("show");
   }
   function handleFeat() {
     setHom(false);
